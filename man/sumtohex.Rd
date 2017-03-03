@@ -7,7 +7,11 @@ sumtohex(num1,num2)
 \description{
 Adds two numbers and returns result in hexadecimal string.
 }
+\arguments{
+\item{num1}{ First number. }
+\item{num2}{ eSecond number. }
+}
 \examples{
-sumtohex(5, 6) = "b"
-sumtohex(230, 420) = "28a"
+ans <- sumtohex(5, 6)
+ans
 }
