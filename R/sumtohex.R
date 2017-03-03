@@ -9,7 +9,8 @@
 #' sumtohex(230, 420) = "28a"
 
 sumtohex <- function(num1,num2) {
-  return(as.hexmode(num1 + num2))
+  result <- as.hexmode(num1 + num2)
+  return(toString(result))
 }
 
 
