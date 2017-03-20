@@ -8,8 +8,8 @@ sumtohex(num1,num2)
 Adds two numbers and returns result in hexadecimal string.
 }
 \arguments{
-\item{num1}{ First number. }
-\item{num2}{ eSecond number. }
+\item{num1}{ First number }
+\item{num2}{ Second number }
 }
 \examples{
 ans <- sumtohex(5, 6)
